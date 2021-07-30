@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "521461121249",
+    "project_id": "elib-riverpod",
+    "storage_bucket": "elib-riverpod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521461121249:android:30ae5b5af9b26ffbf3f7a0",
+        "android_client_info": {
+          "package_name": "com.surajboniwal.riverpod_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521461121249-a2358qbhmamqgmf84vhobtc8r6um2p79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.surajboniwal.riverpod_test",
+            "certificate_hash": "2a5ee3d2e9068d0434254920377fcc2dbe827731"
+          }
+        },
+        {
+          "client_id": "521461121249-u4n8tkbcn6tnilap6o72d2162ekt0fk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3Y6_eQ1ClSPVU23zoYFzQkQ92Xwz1tzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521461121249-u4n8tkbcn6tnilap6o72d2162ekt0fk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
