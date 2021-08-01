@@ -39,7 +39,9 @@ class HomeScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 ListTile(
-                  title: Text(user?.displayName ?? 'No user'),
+                  title: Text(
+                    user?.displayName ?? 'No user',
+                  ),
                   subtitle: Text(user?.email ?? 'No email'),
                   leading: CircleAvatar(
                     backgroundImage: NetworkImage(

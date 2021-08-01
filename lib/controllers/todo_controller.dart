@@ -9,7 +9,11 @@ class TodoController extends StateNotifier<AsyncValue<List<Todo>>> {
 
   Reader _read;
 
-  static final todoControllerProvider = StateNotifierProvider<TodoController, AsyncValue<List<Todo>>>((ref) {
+  static final todoControllerProvider = StateNotifierProvider.autoDispose<TodoController, AsyncValue<List<Todo>>>((ref) {
+    ref.onDispose(() {
+      print('Tab controller disposed');
+    });
+
     return TodoController(ref.read);
   });
 
